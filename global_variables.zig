@@ -1,4 +1,4 @@
-// order of top level declarations are order independent & lazily analysed
+// top level declarations are order independent & lazily analysed
 // initialisation of global variables are evaulated at compile time
 
 var y: i32 = add(x, 10);
